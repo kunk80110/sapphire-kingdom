@@ -4,7 +4,7 @@ function showAmstf(){
         if(btns[i].style.display == "none"){
             btns[i].style.display = "block";
         }else{
-            btns[i].style.display = "none"
+            btns[i].style.display = "none";
         }
     }
 }
@@ -15,7 +15,7 @@ function showAmBully(){
         if(btns[i].style.display == "none"){
             btns[i].style.display = "block";
         }else{
-            btns[i].style.display = "none"
+            btns[i].style.display = "none";
         }
     }
 }
@@ -26,7 +26,8 @@ function showFrench(){
         if(btns[i].style.display == "none"){
             btns[i].style.display = "block";
         }else{
-            btns[i].style.display = "none"
+            btns[i].style.display = "none";
         }
     }
 }
+
