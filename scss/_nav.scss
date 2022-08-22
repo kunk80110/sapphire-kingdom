@@ -34,41 +34,41 @@
 
         .amstaff1{
             grid-area: 2/2/3/3;
-            display: block;
+            display: none;
         }
         .amstaff2{
             grid-area: 3/2/4/3;
-            display: block;
+            display: none;
         }
         .amstaff3{
             grid-area: 4/2/5/3;
-            display: block;
+            display: none;
         }
 
         .ambully1{
             grid-area: 2/3/3/4;
-            display: block;
+            display: none;
         }
         .ambully2{
             grid-area: 3/3/4/4;
-            display: block;
+            display: none;
         }
         .ambully3{
             grid-area: 4/3/5/4;
-            display: block;
+            display: none;
         }
 
         .french1{
             grid-area: 2/4/3/5;
-            display: block;
+            display: none;
         }
         .french2{
             grid-area: 3/4/4/5;
-            display: block;
+            display: none;
         }
         .french3{
             grid-area: 4/4/5/5;
-            display: block;
+            display: none;
         }
     }
 }

@@ -41,39 +41,39 @@ header {
 }
 .content nav .amstaff1 {
   grid-area: 2/2/3/3;
-  display: block;
+  display: none;
 }
 .content nav .amstaff2 {
   grid-area: 3/2/4/3;
-  display: block;
+  display: none;
 }
 .content nav .amstaff3 {
   grid-area: 4/2/5/3;
-  display: block;
+  display: none;
 }
 .content nav .ambully1 {
   grid-area: 2/3/3/4;
-  display: block;
+  display: none;
 }
 .content nav .ambully2 {
   grid-area: 3/3/4/4;
-  display: block;
+  display: none;
 }
 .content nav .ambully3 {
   grid-area: 4/3/5/4;
-  display: block;
+  display: none;
 }
 .content nav .french1 {
   grid-area: 2/4/3/5;
-  display: block;
+  display: none;
 }
 .content nav .french2 {
   grid-area: 3/4/4/5;
-  display: block;
+  display: none;
 }
 .content nav .french3 {
   grid-area: 4/4/5/5;
-  display: block;
+  display: none;
 }
 
 body {
