@@ -1,3 +1,7 @@
+.content {
+  height: 1500px;
+}
+
 .dogs {
   margin-top: 50px;
 }
@@ -5,4 +9,60 @@
   color: #fff;
   font-size: 36px;
   text-align: center;
+}
+.dogs__cards {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+.dogs__cards .card-body {
+  border-radius: 20px;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  width: 700px;
+  height: 700px;
+  border: 5px solid #fff;
+}
+.dogs__cards .card-body .first-half .title {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.dogs__cards .card-body .first-half .img {
+  background-image: url("../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg");
+  width: 350px;
+  height: 480px;
+  background-size: 100%;
+  border-radius: 10px;
+}
+.dogs__cards .card-body .second-half .text {
+  margin-top: 50px;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.dogs__cards .card-body .second-half a {
+  display: block;
+  margin: 30px auto 0px auto;
+  width: 200px;
+  height: 100px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.3s linear border-color;
+  color: #fff;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.dogs__cards .card-body .second-half a:hover {
+  border-color: #fff;
 }
