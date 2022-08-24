@@ -1,7 +1,7 @@
 .content{
     margin: 0px auto 0px auto;
     width: 80%;
-    height: 500px;
+    height: 1200px;
     nav{
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -70,5 +70,16 @@
             grid-area: 4/4/5/5;
             display: none;
         }
+    }
+    h1{
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    p{
+        color: #fff;
+        font-size: 20px;
     }
 }
