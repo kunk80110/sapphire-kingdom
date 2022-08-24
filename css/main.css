@@ -1,6 +1,7 @@
 header {
-  width: 1920px;
-  height: 600px;
+  width: 100%;
+  min-height: 300px;
+  height: auto;
   background: red;
 }
 
