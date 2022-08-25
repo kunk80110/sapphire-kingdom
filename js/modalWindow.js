@@ -13,9 +13,7 @@ function showParrents(showIt, dogTitle, maleParentTitle, femaleParentTitle, dogI
     let arrayObjs = [titleDog, titleMaleParent, titleFemaleParent, imgDog, imgMaleParent, imgFemaleParent, textDog, textMaleParent, textFemaleParent];
     let arrayData = [dogTitle, maleParentTitle, femaleParentTitle, dogImg, maleParentImg, femaleParentImg, dogText, maleParentText, femaleParentText];
     if (showIt){
-        console.log(modalWindow);
         for (let i = 0; i < arrayObjs.length; i++){
-            console.log(i);
             if(arrayObjs[i] == arrayObjs[3] || arrayObjs[i] == arrayObjs[4] || arrayObjs[i] == arrayObjs[5]){
                 arrayObjs[i].style.backgroundImage = `url(${arrayData[i]})`;
             }
