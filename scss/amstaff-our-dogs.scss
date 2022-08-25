@@ -1,5 +1,5 @@
 .content{
-    height: 1500px;
+    height: 3200px;
 }
 .dogs{
     margin-top: 50px;
@@ -14,8 +14,10 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 15px;
-        grid-row-gap: 15px;
+        grid-row-gap: 50px;
         .card-body{
+            margin-left: auto;
+            margin-right: auto;
             border-radius: 20px;
             padding-top: 40px;
             padding-left: 40px;
@@ -24,7 +26,7 @@
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 15px;
             width: 700px;
-            height: 700px;
+            height: 750px;
             border: 5px solid #fff;
             .first-half{
                 .title{
@@ -34,11 +36,25 @@
                     margin-bottom: 20px;
                 }
                 .img{
-                    background-image: url('../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg');
                     width: 350px;
                     height: 480px;
                     background-size: 100%;
                     border-radius: 10px;
+                    background-repeat: no-repeat;
+                }
+
+                .amstaff-1{
+                    background-image: url('../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg');
+                }
+
+                .amstaff-2{
+                    background-image: url('../imgs/amstaff-imgs/dog2/amstafdog2-image.jpg');
+                    height: 430px;
+                }
+
+                .amstaff-3{
+                    background-image: url('../imgs/amstaff-imgs/dog3/image.jpg');
+                    height: 230px;
                 }
             }
             .second-half{
@@ -53,19 +69,21 @@
                     margin: 30px auto 0px auto;
                     width: 200px;
                     height: 100px;
-                    border: 2px solid transparent;
+                    border: 2px solid #ababab;
                     border-radius: 10px;
-                    transition: .3s linear border-color;
+                    color:#ababab;
+                    transition: border-color .3s linear, color .3s linear;
                     &:hover{
                         border-color: #fff;
+                        color: #fff;
                     }
-                    color:#fff;
                     text-align:center;
                     padding-top: 30px;
                     font-size: 30px;
-                    font-weight: 700;
                 }
             }
         }
     }
 }
+
+@import 'modal-window';
