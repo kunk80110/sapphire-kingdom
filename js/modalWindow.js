@@ -11,7 +11,7 @@ function showParrents(showIt, dogTitle, maleParentTitle, femaleParentTitle, dogI
     const textMaleParent = document.querySelector(".maleText");
     const textFemaleParent = document.querySelector(".femaleText");
     let arrayObjs = [titleDog, titleMaleParent, titleFemaleParent, imgDog, imgMaleParent, imgFemaleParent, textDog, textMaleParent, textFemaleParent];
-    let arrayData = [dogTitle, maleParentTitle, femaleParentTitle, dogImg, maleParentImg, femaleParentImg, dogText, maleParentText, femaleParentText];
+    let arrayData = [dogTitle, `Батько: ${maleParentTitle}`, `Мати: ${femaleParentTitle}`, dogImg, maleParentImg, femaleParentImg, dogText, maleParentText, femaleParentText];
     if (showIt){
         for (let i = 0; i < arrayObjs.length; i++){
             if(arrayObjs[i] == arrayObjs[3] || arrayObjs[i] == arrayObjs[4] || arrayObjs[i] == arrayObjs[5]){
