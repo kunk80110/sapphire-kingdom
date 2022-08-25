@@ -1,5 +1,5 @@
 .content {
-  height: 3200px;
+  height: 3900px;
 }
 
 .dogs {
@@ -62,6 +62,17 @@
 .dogs__cards .card-body .first-half .amstaff-5 {
   background-image: url("../imgs/amstaff-imgs/dog5/image.jpg");
   height: 230px;
+}
+.dogs__cards .card-body .first-half .amstaff-6 {
+  background-image: url("../imgs/amstaff-imgs/dog6/image.jpg");
+}
+.dogs__cards .card-body .first-half .amstaff-7 {
+  background-image: url("../imgs/amstaff-imgs/dog7/image.jpg");
+  height: 590px;
+}
+.dogs__cards .card-body .first-half .amstaff-8 {
+  background-image: url("../imgs/amstaff-imgs/dog8/image.jpg");
+  height: 220px;
 }
 .dogs__cards .card-body .second-half .text {
   margin-top: 50px;
@@ -170,8 +181,9 @@
 
 .imgDog, .imgMale, .imgFemale {
   background-size: 100%;
-  width: 200px;
+  width: 220px;
   height: 250px;
+  background-repeat: no-repeat;
 }
 
 .paragraph {
