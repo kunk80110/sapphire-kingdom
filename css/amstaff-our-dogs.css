@@ -1,5 +1,5 @@
 .content {
-  height: 6000px;
+  height: 8000px;
 }
 
 .dogs {
@@ -88,6 +88,14 @@
 }
 .dogs__cards .card-body .first-half .amstaff-12 {
   background-image: url("../imgs/amstaff-imgs/dog12/image.jpg");
+  height: 460px;
+}
+.dogs__cards .card-body .first-half .amstaff-13 {
+  background-image: url("../imgs/amstaff-imgs/dog13/image.jpg");
+  height: 460px;
+}
+.dogs__cards .card-body .first-half .amstaff-14 {
+  background-image: url("../imgs/amstaff-imgs/dog14/image.jpg");
   height: 460px;
 }
 .dogs__cards .card-body .second-half .text {
