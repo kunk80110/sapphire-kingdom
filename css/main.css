@@ -58,7 +58,7 @@ header {
 .content {
   margin: 0px auto 0px auto;
   width: 80%;
-  height: 1200px;
+  min-height: 1200px;
 }
 .content nav {
   display: grid;
