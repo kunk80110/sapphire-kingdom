@@ -62,18 +62,19 @@ header {
 }
 .content nav {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 15px;
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .content nav .nav__link {
   position: relative;
   text-decoration: none;
-  width: 220px;
-  height: 100px;
-  font-size: 20px;
+  width: 210px;
+  height: 90px;
   text-align: center;
   color: #bfbfbf;
   border: 3px solid rgba(191, 191, 191, 0.2);
@@ -166,15 +167,32 @@ header {
   .content nav {
     display: grid;
   }
+  .content nav .nav__link {
+    width: 200px;
+    height: 90px;
+  }
+  .content nav .nav__link p {
+    font-size: 16px;
+  }
 }
-@media (min-width: 1440px) {
+@media (min-width: 1200px) and (min-width: 1440px) {
   .content nav {
     display: grid;
   }
+  .content nav .nav__link {
+    width: 220px;
+    height: 90px;
+  }
+  .content nav .nav__link p {
+    font-size: 20px;
+  }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1200px) and (min-width: 1920px) {
   .content nav {
     display: grid;
+  }
+  .content nav .nav__link p {
+    font-size: 20px;
   }
 }
 
@@ -224,4 +242,5 @@ footer .content-footer div a > p {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  height: auto;
 }

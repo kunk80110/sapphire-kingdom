@@ -5,17 +5,18 @@
 
   nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
     .nav__link {
       position: relative;
       text-decoration: none;
-      width: 220px;
-      height: 100px;
-      font-size: 20px;
+      width: 210px;
+      height: 90px;
       text-align: center;
       color: #bfbfbf;
       border: 3px solid rgba($color: #bfbfbf, $alpha: 0.2);
@@ -117,18 +118,37 @@
   @media (min-width: 1200px) {
     nav {
       display: grid;
+      .nav__link {
+        width: 200px;
+        height: 90px;
+        p {
+          font-size: 16px;
+        }
+      }
     }
-  }
 
-  @media (min-width: 1440px) {
-    nav {
-      display: grid;
+    @media (min-width: 1440px) {
+      nav {
+        display: grid;
+        .nav__link {
+          width: 220px;
+          height: 90px;
+          p {
+            font-size: 20px;
+          }
+        }
+      }
     }
-  }
 
-  @media (min-width: 1920px) {
-    nav {
-      display: grid;
+    @media (min-width: 1920px) {
+      nav {
+        display: grid;
+        .nav__link {
+          p {
+            font-size: 20px;
+          }
+        }
+      }
     }
   }
 }
