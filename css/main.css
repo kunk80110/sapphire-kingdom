@@ -249,6 +249,56 @@ footer .content-footer div a > p {
   color: #fff;
   margin-bottom: 20px;
 }
+@media (max-width: 320px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  footer .content-footer {
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  footer .content-footer {
+    display: flex;
+  }
+}
+@media (min-width: 1920px) {
+  footer .content-footer {
+    display: flex;
+  }
+}
 
 body {
   font-family: "Source Sans Pro", sans-serif;
