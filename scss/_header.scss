@@ -6,7 +6,7 @@ header {
   background-position: 50% 50%;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   header {
     min-width: 320px;
     min-height: 100px;
