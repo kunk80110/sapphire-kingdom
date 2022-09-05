@@ -7,6 +7,18 @@ header {
   background-position: 50% 50%;
 }
 
+@media (max-width: 320px) {
+  header {
+    min-width: 320px;
+    min-height: 100px;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    min-width: 480px;
+    min-height: 150px;
+  }
+}
 @media (max-width: 576px) {
   header {
     min-width: 576px;
