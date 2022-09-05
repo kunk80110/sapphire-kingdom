@@ -138,6 +138,46 @@ header {
   font-size: 20px;
 }
 
+@media (max-width: 576px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  nav {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  nav {
+    display: block;
+  }
+}
+@media (min-width: 1440px) {
+  nav {
+    display: block;
+  }
+}
+@media (min-width: 1920px) {
+  nav {
+    display: block;
+  }
+}
 body {
   background-color: #0f0f0f;
 }
