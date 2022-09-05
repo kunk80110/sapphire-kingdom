@@ -1,86 +1,134 @@
-.content{
-    margin: 0px auto 0px auto;
-    width: 80%;
-    min-height: 1200px;
+.content {
+  margin: 0px auto 0px auto;
+  width: 80%;
+  min-height: 1200px;
 
-    nav{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-column-gap: 15px;
-        grid-row-gap: 15px;
-        margin-top: 50px;
-        .nav__link{
-            position: relative;
-            text-decoration: none;
-            width: 220px;
-            height: 100px;
-            font-size: 20px;
-            text-align: center;
-            color: #bfbfbf;
-            border: 3px solid rgba($color: #bfbfbf, $alpha: 0.2);
-            border-radius: 20px;
-            transition: 0.3s linear all;
-            &:hover{
-                border-color: #fff;
-                color: #fff;
-            }
-            p{
-                width: 100%;
-                position: absolute;
-                top: 50%;
-                transform: translate(0, -50%);
-            }
-        }
-
-        .amstaff1{
-            grid-area: 2/2/3/3;
-            display: none;
-        }
-        .amstaff2{
-            grid-area: 3/2/4/3;
-            display: none;
-        }
-        .amstaff3{
-            grid-area: 4/2/5/3;
-            display: none;
-        }
-
-        .ambully1{
-            grid-area: 2/3/3/4;
-            display: none;
-        }
-        .ambully2{
-            grid-area: 3/3/4/4;
-            display: none;
-        }
-        .ambully3{
-            grid-area: 4/3/5/4;
-            display: none;
-        }
-
-        .french1{
-            grid-area: 2/4/3/5;
-            display: none;
-        }
-        .french2{
-            grid-area: 3/4/4/5;
-            display: none;
-        }
-        .french3{
-            grid-area: 4/4/5/5;
-            display: none;
-        }
-    }
-    h1{
-        text-align: center;
+  nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    margin-top: 50px;
+    .nav__link {
+      position: relative;
+      text-decoration: none;
+      width: 220px;
+      height: 100px;
+      font-size: 20px;
+      text-align: center;
+      color: #bfbfbf;
+      border: 3px solid rgba($color: #bfbfbf, $alpha: 0.2);
+      border-radius: 20px;
+      transition: 0.3s linear all;
+      &:hover {
+        border-color: #fff;
         color: #fff;
-        font-size: 36px;
-        margin-bottom: 20px;
-        margin-top: 50px;
+      }
+      p {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+      }
     }
-    p{
-        color: #fff;
-        font-size: 20px;
+
+    .amstaff1 {
+      grid-area: 2/2/3/3;
+      display: none;
     }
+    .amstaff2 {
+      grid-area: 3/2/4/3;
+      display: none;
+    }
+    .amstaff3 {
+      grid-area: 4/2/5/3;
+      display: none;
+    }
+
+    .ambully1 {
+      grid-area: 2/3/3/4;
+      display: none;
+    }
+    .ambully2 {
+      grid-area: 3/3/4/4;
+      display: none;
+    }
+    .ambully3 {
+      grid-area: 4/3/5/4;
+      display: none;
+    }
+
+    .french1 {
+      grid-area: 2/4/3/5;
+      display: none;
+    }
+    .french2 {
+      grid-area: 3/4/4/5;
+      display: none;
+    }
+    .french3 {
+      grid-area: 4/4/5/5;
+      display: none;
+    }
+  }
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  p {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav {
+    display: block;
+  }
+}
+
+@media (min-width: 1440px) {
+  nav {
+    display: block;
+  }
+}
+
+@media (min-width: 1920px) {
+  nav {
+    display: block;
+  }
 }
