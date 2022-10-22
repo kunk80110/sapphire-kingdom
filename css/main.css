@@ -381,8 +381,8 @@ footer .content-footer div a > p {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(1, 1fr);
   }
-  footer .content-footer {
-    height: 250px;
+  footer {
+    height: 240px;
   }
 }
 

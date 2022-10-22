@@ -81,9 +81,9 @@ footer {
     .content-footer {
       grid-template-columns: repeat(10, 1fr);
       grid-template-rows: repeat(1, 1fr);
-      & {
-        height: 250px;
-      }
+    }
+    & {
+      height: 240px;
     }
   }
 }
