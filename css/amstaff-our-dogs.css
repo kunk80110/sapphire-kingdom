@@ -29,7 +29,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 15px;
   width: 700px;
-  height: 750px;
+  height: 820px;
   border: 5px solid #fff;
 }
 .dogs__cards .card-body .first-half .title {
@@ -46,68 +46,68 @@
   background-repeat: no-repeat;
 }
 .dogs__cards .card-body .first-half .amstaff-1 {
-  background-image: url("../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg');
 }
 .dogs__cards .card-body .first-half .amstaff-2 {
-  background-image: url("../imgs/amstaff-imgs/dog2/amstafdog2-image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog2/amstafdog2-image.jpg');
   height: 430px;
 }
 .dogs__cards .card-body .first-half .amstaff-3 {
-  background-image: url("../imgs/amstaff-imgs/dog3/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog3/image.jpg');
   height: 230px;
 }
 .dogs__cards .card-body .first-half .amstaff-4 {
-  background-image: url("../imgs/amstaff-imgs/dog4/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog4/image.jpg');
 }
 .dogs__cards .card-body .first-half .amstaff-5 {
-  background-image: url("../imgs/amstaff-imgs/dog5/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog5/image.jpg');
   height: 230px;
 }
 .dogs__cards .card-body .first-half .amstaff-6 {
-  background-image: url("../imgs/amstaff-imgs/dog6/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog6/image.jpg');
 }
 .dogs__cards .card-body .first-half .amstaff-7 {
-  background-image: url("../imgs/amstaff-imgs/dog7/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog7/image.jpg');
   height: 590px;
 }
 .dogs__cards .card-body .first-half .amstaff-8 {
-  background-image: url("../imgs/amstaff-imgs/dog8/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog8/image.jpg');
   height: 220px;
 }
 .dogs__cards .card-body .first-half .amstaff-9 {
-  background-image: url("../imgs/amstaff-imgs/dog9/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog9/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-10 {
-  background-image: url("../imgs/amstaff-imgs/dog10/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog10/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-11 {
-  background-image: url("../imgs/amstaff-imgs/dog11/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog11/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-12 {
-  background-image: url("../imgs/amstaff-imgs/dog12/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog12/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-13 {
-  background-image: url("../imgs/amstaff-imgs/dog13/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog13/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-14 {
-  background-image: url("../imgs/amstaff-imgs/dog14/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog14/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-15 {
-  background-image: url("../imgs/amstaff-imgs/dog15/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog15/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-16 {
-  background-image: url("../imgs/amstaff-imgs/dog16/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog16/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .first-half .amstaff-17 {
-  background-image: url("../imgs/amstaff-imgs/dog17/image.jpg");
+  background-image: url('../imgs/amstaff-imgs/dog17/image.jpg');
   height: 460px;
 }
 .dogs__cards .card-body .second-half .text {
@@ -215,7 +215,9 @@
   background: none;
 }
 
-.imgDog, .imgMale, .imgFemale {
+.imgDog,
+.imgMale,
+.imgFemale {
   background-size: 100%;
   width: 220px;
   height: 250px;

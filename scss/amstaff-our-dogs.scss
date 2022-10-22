@@ -1,156 +1,156 @@
-.content{
-    height: 5400px;
+.content {
+  height: 5400px;
 }
-.dogs{
+.dogs {
+  margin-top: 50px;
+  h1 {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+  }
+  &__cards {
     margin-top: 50px;
-    h1{
-        color: #fff;
-        font-size: 36px;
-        text-align: center;
-    }
-    &__cards{
-        margin-top: 50px;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        grid-column-gap: 15px;
-        grid-row-gap: 50px;
-        .card-body{
-            margin-left: auto;
-            margin-right: auto;
-            border-radius: 20px;
-            padding-top: 40px;
-            padding-left: 40px;
-            padding-right: 40px;
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-column-gap: 15px;
-            width: 700px;
-            height: 750px;
-            border: 5px solid #fff;
-            .first-half{
-                .title{
-                    color: #fff;
-                    text-align: center;
-                    text-transform: uppercase;
-                    margin-bottom: 20px;
-                }
-                .img{
-                    width: 350px;
-                    height: 480px;
-                    background-size: 100%;
-                    border-radius: 10px;
-                    background-repeat: no-repeat;
-                }
-
-                .amstaff-1{
-                    background-image: url('../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg');
-                }
-
-                .amstaff-2{
-                    background-image: url('../imgs/amstaff-imgs/dog2/amstafdog2-image.jpg');
-                    height: 430px;
-                }
-
-                .amstaff-3{
-                    background-image: url('../imgs/amstaff-imgs/dog3/image.jpg');
-                    height: 230px;
-                }
-
-                .amstaff-4{
-                    background-image: url('../imgs/amstaff-imgs/dog4/image.jpg');
-                }
-
-                .amstaff-5{
-                    background-image: url('../imgs/amstaff-imgs/dog5/image.jpg');
-                    height: 230px;
-                }
-
-                .amstaff-6{
-                    background-image: url('../imgs/amstaff-imgs/dog6/image.jpg');
-                }
-
-                .amstaff-7{
-                    background-image: url('../imgs/amstaff-imgs/dog7/image.jpg');
-                    height: 590px;
-                }
-
-                .amstaff-8{
-                    background-image: url('../imgs/amstaff-imgs/dog8/image.jpg');
-                    height: 220px;
-                }
-
-                .amstaff-9{
-                    background-image: url('../imgs/amstaff-imgs/dog9/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-10{
-                    background-image: url('../imgs/amstaff-imgs/dog10/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-11{
-                    background-image: url('../imgs/amstaff-imgs/dog11/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-12{
-                    background-image: url('../imgs/amstaff-imgs/dog12/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-13{
-                    background-image: url('../imgs/amstaff-imgs/dog13/image.jpg');
-                    height: 460px;
-                }
-                .amstaff-14{
-                    background-image: url('../imgs/amstaff-imgs/dog14/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-15{
-                    background-image: url('../imgs/amstaff-imgs/dog15/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-16{
-                    background-image: url('../imgs/amstaff-imgs/dog16/image.jpg');
-                    height: 460px;
-                }
-
-                .amstaff-17{
-                    background-image: url('../imgs/amstaff-imgs/dog17/image.jpg');
-                    height: 460px;
-                }
-            }
-            .second-half{
-                .text{
-                    margin-top: 50px;
-                    margin-left: 10px;
-                    color: #fff;
-                    font-size: 20px;
-                }
-                a{
-                    display: block;
-                    margin: 30px auto 0px auto;
-                    width: 200px;
-                    height: 100px;
-                    border: 2px solid #ababab;
-                    border-radius: 10px;
-                    color:#ababab;
-                    transition: border-color .3s linear, color .3s linear;
-                    &:hover{
-                        border-color: #fff;
-                        color: #fff;
-                    }
-                    text-align:center;
-                    padding-top: 30px;
-                    font-size: 30px;
-                }
-            }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
+    .card-body {
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      padding-top: 40px;
+      padding-left: 40px;
+      padding-right: 40px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 15px;
+      width: 700px;
+      height: 820px;
+      border: 5px solid #fff;
+      .first-half {
+        .title {
+          color: #fff;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 20px;
         }
+        .img {
+          width: 350px;
+          height: 480px;
+          background-size: 100%;
+          border-radius: 10px;
+          background-repeat: no-repeat;
+        }
+
+        .amstaff-1 {
+          background-image: url('../imgs/amstaff-imgs/dog1/amstafdog1-image.jpg');
+        }
+
+        .amstaff-2 {
+          background-image: url('../imgs/amstaff-imgs/dog2/amstafdog2-image.jpg');
+          height: 430px;
+        }
+
+        .amstaff-3 {
+          background-image: url('../imgs/amstaff-imgs/dog3/image.jpg');
+          height: 230px;
+        }
+
+        .amstaff-4 {
+          background-image: url('../imgs/amstaff-imgs/dog4/image.jpg');
+        }
+
+        .amstaff-5 {
+          background-image: url('../imgs/amstaff-imgs/dog5/image.jpg');
+          height: 230px;
+        }
+
+        .amstaff-6 {
+          background-image: url('../imgs/amstaff-imgs/dog6/image.jpg');
+        }
+
+        .amstaff-7 {
+          background-image: url('../imgs/amstaff-imgs/dog7/image.jpg');
+          height: 590px;
+        }
+
+        .amstaff-8 {
+          background-image: url('../imgs/amstaff-imgs/dog8/image.jpg');
+          height: 220px;
+        }
+
+        .amstaff-9 {
+          background-image: url('../imgs/amstaff-imgs/dog9/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-10 {
+          background-image: url('../imgs/amstaff-imgs/dog10/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-11 {
+          background-image: url('../imgs/amstaff-imgs/dog11/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-12 {
+          background-image: url('../imgs/amstaff-imgs/dog12/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-13 {
+          background-image: url('../imgs/amstaff-imgs/dog13/image.jpg');
+          height: 460px;
+        }
+        .amstaff-14 {
+          background-image: url('../imgs/amstaff-imgs/dog14/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-15 {
+          background-image: url('../imgs/amstaff-imgs/dog15/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-16 {
+          background-image: url('../imgs/amstaff-imgs/dog16/image.jpg');
+          height: 460px;
+        }
+
+        .amstaff-17 {
+          background-image: url('../imgs/amstaff-imgs/dog17/image.jpg');
+          height: 460px;
+        }
+      }
+      .second-half {
+        .text {
+          margin-top: 50px;
+          margin-left: 10px;
+          color: #fff;
+          font-size: 20px;
+        }
+        a {
+          display: block;
+          margin: 30px auto 0px auto;
+          width: 200px;
+          height: 100px;
+          border: 2px solid #ababab;
+          border-radius: 10px;
+          color: #ababab;
+          transition: border-color 0.3s linear, color 0.3s linear;
+          &:hover {
+            border-color: #fff;
+            color: #fff;
+          }
+          text-align: center;
+          padding-top: 30px;
+          font-size: 30px;
+        }
+      }
     }
+  }
 }
 
 @import 'modal-window';
